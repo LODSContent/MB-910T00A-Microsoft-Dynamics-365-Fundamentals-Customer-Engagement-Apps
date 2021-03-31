@@ -4,20 +4,19 @@ lab:
     module: 'Module 1: Learn the Fundamentals of Dynamics 365 Marketing'
 ---
 
-Module 1: Learn the Fundamentals of Dynamics 365 Marketing
-========================
+# Module 1: Learn the Fundamentals of Dynamics 365 Marketing
 
 ## Practice Lab 1.4 - Search and filter data
 
-## Objectives
+### Objectives
 
 Locating data in the application is almost a daily task. The more efficient you are at finding and searching, the quicker you will be at handling customer inquiries, and navigating through the application in general.  This lab will walk you through the process.
 
-## Lab Setup
+### Lab Setup
 
   - **Estimated Time**: 15 minutes
 
-## Instructions
+### Instructions
 
 In this exercise, you will leverage the searching and filtering capabilities of Dynamics 365 to locate and work with different records. 
 
@@ -29,13 +28,13 @@ In this exercise, you will leverage the searching and filtering capabilities of 
 
 4. From the menu that appears, select **Filter By**.
 
-5. In the Filter by box, leave the **operator** as **Equals**, enter **Redmond** for the value, click **Apply**.
+5. In the Filter by box, leave the **operator** as **Equals**, enter `Redmond` for the value, click **Apply**.
 
 6. Notice that only accounts with a city of Redmond are being displayed. 
 
 7. Select the **Address 1 City** column again, from the menu that appears select **Clear Filter**. 
 
-8. Locate the **Search this View** field on the upper right side of the screen, enter the text **Coho** and press **enter**.
+8. Locate the **Search this View** field on the upper right side of the screen, enter the text `Coho` and press **enter**.
 
 9. Notice that the **Coho Vinyard & Winery** account record is displayed. 
 
@@ -47,11 +46,11 @@ In this exercise, you will leverage the searching and filtering capabilities of 
 
 13. Complete the **Quick Create Task** form as follows:
 
-	- **Subject:** Send Marketing Materials -Your Initials
+	- **Subject:** `Send Marketing Materials -Your Initials`
 
-	- **Due:** Tomorrow at 8:30 AM
+	- **Due:** `Tomorrow at 8:30 AM`
 
-	- **Priority:** High
+	- **Priority:** `High`
 
 14. Select the **Save and Close** button.
 
