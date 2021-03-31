@@ -1,19 +1,19 @@
+
 ---
 lab:
     title: 'Lab 3.2: Create and manage Cases in Dynamics 365 Customer Service'
     module: 'Module 3: Learn the Fundamentals of Dynamics 365 Customer Service'
 ---
 
-Module 3: Learn the Fundamentals of Dynamics 365 Customer Service
-========================
+# Module 3: Learn the Fundamentals of Dynamics 365 Customer Service
 
 ## Practice Lab 3.2 - Create and manage Cases in Dynamics 365 Customer Service
 
-## Lab Setup
+### Lab Setup
 
   - **Estimated Time**: 10 minutes
 
-## Instructions
+### Instructions
 
 1. If is not open already, open the **Dynamics 365 Customer Service Hub** application. 
 
@@ -23,15 +23,15 @@ Module 3: Learn the Fundamentals of Dynamics 365 Customer Service
 
 4. Complete the new case record as follows:
 
-	- **Case Title:** Item arrived Damaged – Your Initials
+	- **Case Title:** `Item arrived Damaged – Your Initials`
 
-	- **Customer:** Alpine Ski House (Sample)
+	- **Customer:** `Alpine Ski House (Sample)`
 
-	- **Origin:** Phone
+	- **Origin:** `Phone`
 
 5. Select the **Save** button to save the record and leave it open. 
 
-6. On the **Phone to Case Process**, select the **Identify** stage and set the **Find Contact Field** to **Dwayne Elijah**. 
+6. On the **Phone to Case Process**, select the **Identify** stage and set the **Find Contact Field** to `Dwayne Elijah`. 
 
 7. Click the **X** on the **Identify** stage fly out window to remove the window so you can continue working. 
 
@@ -39,7 +39,7 @@ Module 3: Learn the Fundamentals of Dynamics 365 Customer Service
 
 9. From the menu that appears, select **Phone Call**.
 
-10. Set the **Subject** field to **Return Call to Patrick – Your Initials** and leave the rest of the fields as is. 
+10. Set the **Subject** field to `Return Call to Patrick – Your Initials` and leave the rest of the fields as is. 
 
 11. Click the **Save and Close** button. 
 
@@ -65,6 +65,6 @@ Module 3: Learn the Fundamentals of Dynamics 365 Customer Service
 
 22. On the **Command Bar** for the case record, select the **Resolve Case** button.
 
-23. On the **Resolve Case** window, set the **Resolution** field to **Knowledge Article**. 
+23. On the **Resolve Case** window, set the **Resolution** field to `Knowledge Article`. 
 
 24. Select the **Resolve** button to complete the process. 
