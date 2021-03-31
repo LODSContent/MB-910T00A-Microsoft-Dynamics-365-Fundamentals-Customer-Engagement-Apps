@@ -4,20 +4,19 @@ lab:
     module: 'Module 1: Learn the Fundamentals of Dynamics 365 Marketing'
 ---
 
-Module 1: Learn the Fundamentals of Dynamics 365 Marketing
-========================
+# Module 1: Learn the Fundamentals of Dynamics 365 Marketing
 
 ## Practice Lab 1.3 - Manage Customers and Activities
 
-## Objectives
+### Objectives
 
 Defining and working with account and contact records in Dynamics 365 applications is one of the most common activities you will do in the application. Once accounts and contacts are created, activities such as phone calls, tasks, and appointments will represent the interactions that you have with your customers.
 
-## Lab Setup
+### Lab Setup
 
   - **Estimated Time**: 15 minutes
 
-## Instructions
+### Instructions
 
 In this exercise, you will be working with common records that are leveraged by all the first party customer engagement apps. 
 
@@ -29,17 +28,17 @@ In this exercise, you will be working with common records that are leveraged by 
 
 4. Complete the account record as follows:
 
-	- **Account Name:** Contoso Corporate – Your Initials
+	- **Account Name:** `Contoso Corporate – Your Initials`
 
-	- **Phone:** 888-555-1234
+	- **Phone:** `888-555-1234`
 
-	- **Address 1 Street 1:** 191 181st Ave N
+	- **Address 1 Street 1:** `191 181st Ave N`
 
-	- **Address 1 City:** Seattle
+	- **Address 1 City:** `Seattle`
 
-	- **Address 1 State/ Province:** WA
+	- **Address 1 State/ Province:** `WA`
 
-	- **Address 1 Postal Code:** 98101
+	- **Address 1 Postal Code:** `98101`
 
 5. On the Command Bar, select the **Save and Close** button to save and exit the account record.
 
@@ -47,17 +46,17 @@ In this exercise, you will be working with common records that are leveraged by 
 
 7. Complete the account record as follows:
 
-	- **Account Name:** Contoso North America – Your Initials
+	- **Account Name:** `Contoso North America – Your Initials`
 
-	- **Phone:** 888-555-4321
+	- **Phone:** `888-555-4321`
 
-	- **Address 1 – Street 1**: 187 11th ST N
+	- **Address 1 – Street 1**: `187 11th ST N`
 
-	- **Address 1 City:** Chicago
+	- **Address 1 City:** `Chicago`
 
-	- **Address 1 State/ Province:** IL
+	- **Address 1 State/ Province:** `IL`
 
-	- **Address 1 Postal Code:** 60176
+	- **Address 1 Postal Code:** `60176`
 
 8. Set the **Parent Account** field to the **Contoso Corporate** account you created earlier. 
 
@@ -69,13 +68,13 @@ In this exercise, you will be working with common records that are leveraged by 
 
 12. Using the **Quick Create Contact** form, complete the contact as follows:
 
-	- **First Name:** Jackson
+	- **First Name:** `Jackson`
 
-	- **Last Name:** Anderson - Your initials
+	- **Last Name:** `Anderson - Your initials`
 
-	- **Job Title:** CEO
+	- **Job Title:** `CEO`
 
-	- **Email:** Jackson@contososample.com
+	- **Email:** `Jackson@contososample.com`
 
 13. Select the **Save and Close** button.
 
@@ -87,11 +86,11 @@ In this exercise, you will be working with common records that are leveraged by 
 
 17. Complete the Appointment as follows:
 
-	- **Subject:** Meeting with Jackson
+	- **Subject:** `Meeting with Jackson`
 
-	- **Start Time:** Today at 3:00 PM
+	- **Start Time:** `Today at 3:00 PM`
 
-	- **End Time:** Today at 4:00 PM
+	- **End Time:** `Today at 4:00 PM`
 
 18. Select the **Save and Close** button. 
 
