@@ -4,12 +4,11 @@ lab:
     module: 'Module 3: Learn the Fundamentals of Dynamics 365 Customer Service'
 ---
 
-Module 3: Learn the Fundamentals of Dynamics 365 Customer Service
-========================
+# Module 3: Learn the Fundamentals of Dynamics 365 Customer Service
 
 ## Practice Lab 3.3 - Dynamics 365 Customer Service capstone lab
 
-## Lab Scenario
+### Lab Scenario
 
 ABC company specializes in the manufacturing, selling, installation and servicing of security equipment. Their products include both indoor and outdoor security cameras, moisture and fire sensors, monitoring services, and more. 
 
@@ -57,15 +56,15 @@ Upon completion of the lab, you will have completed the following:
 
 - Manage a case record through its lifecycle. 
 
-## Lab Setup
+### Lab Setup
 
   - **Estimated Time**: 45 minutes
 
-## Instructions
+### Instructions
 
-## Exercise 1: Create and Publish a Knowledge Article
+# Exercise 1: Create and Publish a Knowledge Article
 
-### Task 1: Create a Knowledge Article
+## Task 1: Create a Knowledge Article
 
 1. If is not open already, open the **Dynamics 365 Customer Service Hub** application. 
 
@@ -109,11 +108,11 @@ Upon completion of the lab, you will have completed the following:
 
 10. In the content editor, select the Sensor is not currently working text
 
-11. Change the font size to **22** and select the **Bold** button. 
+11. Change the font size to `22` and select the **Bold** button. 
 
 12. On the **Command Bar**, select the **Save** button to save the Knowledge Article and leave it open. 
 
-13. On the **New Process**, select the **Author** stage, set the **Article Subject** field to **Service**. 
+13. On the **New Process**, select the **Author** stage, set the **Article Subject** field to `Service`. 
 
 14. Set the **Mark for Review** field to **Completed**.
 
@@ -122,8 +121,7 @@ Upon completion of the lab, you will have completed the following:
 16. On the **Command Bar**, select the **Save and Close** button to save your changes and close the article.
 
  
-
-### Task 2: Manage an article through the approval process
+## Task 2: Manage an article through the approval process
 
 In most organizations, after the article author creates the record, it goes through an approval process before it is live. Most of the time this is done by a different individual. In this instance, we will act as an approver. 
 
@@ -131,13 +129,13 @@ In most organizations, after the article author creates the record, it goes thro
 
 2. Open the **Sensor is not working – your initials** article you just created.
 
-3. On the **New Process**, select the **Review** stage. Set the **Review** field to **Rejected**.
+3. On the **New Process**, select the **Review** stage. Set the **Review** field to `Rejected`.
 
-4. On the Reject knowledge Article screen, enter the text **These steps do not work, when I try to replicate it.**
+4. On the Reject knowledge Article screen, enter the text `These steps do not work, when I try to replicate it`.
 
 5. Select the **Reject** button
 
-6. Select the **Save &amp; Close** to close the article record.
+6. Select the **Save & Close** to close the article record.
 
 7. Using the **view selector**, change the view to **My Active Articles**. 
 
@@ -155,7 +153,7 @@ In most organizations, after the article author creates the record, it goes thro
 
 14. Enter the text press the **Confirm** button. 
 
-15. On the **Command Bar**, select the **Save &amp; Close** button.
+15. On the **Command Bar**, select the **Save & Close** button.
 
 16. Use the **View Selector** and switch the view to **Proposed Articles.**
 
@@ -168,7 +166,7 @@ In most organizations, after the article author creates the record, it goes thro
 20. You will be asked to confirm the article approval, select **OK**. 
 
 
-### Task 3: Approve the Knowledge Article
+## Task 3: Approve the Knowledge Article
 
 Now that the article has been approved, we will publish it so that it will be available for people working on cases. 
 
@@ -184,25 +182,25 @@ Now that the article has been approved, we will publish it so that it will be av
 
 6. Confirm that the following is selected:
 
-	- **Publish:** Now
+	- **Publish:** `Now`
 
-	- **Published Status:** Published
+	- **Published Status:** `Published`
 
-	- **Expiration Date:** One year from today at 12:00 AM
+	- **Expiration Date:** `One year from today at 12:00 AM`
 
-	- **Expiration State:** Expired
+	- **Expiration State:** `Expired`
 
-	- **Expiration Status:** Expired
+	- **Expiration Status:** `Expired`
 
 7. Click the **Publish** button to publish the article.
 
 
-## Exercise 2: Manage a support case through its lifecycle
+# Exercise 2: Manage a support case through its lifecycle
 
 
-### Task 1: Create and manage a case
+## Task 1: Create and manage a case
 
-1. If is not open already, open the **Dynamics 365 Customer Service Hub** application. 
+1. If is not open already, open the **Dynamics 365 Customer Service Hub** Application. 
 
 2. Using the navigation on the left side of the screen, select **Dashboards**. This will open the **Tier 1** dashboard. 
 
@@ -214,16 +212,14 @@ Now that the article has been approved, we will publish it so that it will be av
 
 6. On the **Cases by Priority** chart, select **High**. Notice that the case list will be further filtered to include High priority cases.  
 
-7. Click the first case that appears in the list to open it. After the case open, click the **Save &amp; Close** button on the command bar to close the case and return to the **Tier 1** Dashboard. 
+7. Click the first case that appears in the list to open it. After the case open, click the **Save & Close** button on the command bar to close the case and return to the **Tier 1** Dashboard. 
 
 8. Remove any currently applied filters, by selecting **Clear All**. 
 
 9. Additional dashboards provide further details about the current case load. You can work with other dashboards by using the dashboard selector. Change the dashboard from **Tier 1 Dashboard** to **Tier 2 Dashboard**. 
 
  
-
 Now that you are familiar with some of the different views and dashboards, we will create a new case record to assist Piper with her problem.
-
  
 
 10. Using the navigation on the left side of the screen, select **Cases**. 
@@ -232,13 +228,13 @@ Now that you are familiar with some of the different views and dashboards, we wi
 
 12. Complete the new case record as follows:
 
-	- **Case Title:** Sensor is not working – Your Initials
+	- **Case Title:** `Sensor is not working – Your Initials`
 
-	- **Customer:** Piper Smith
+	- **Customer:** `Piper Smith`
 
-	- **Origin:** Phone
+	- **Origin:** `Phone`
 
-	- **Description:** Piper is reporting that one of the sensors that she received is not working properly. 
+	- **Description:** `Piper is reporting that one of the sensors that she received is not working properly`. 
 
 13. Select the **Save** button to save the record and leave it open. 
 
@@ -247,14 +243,14 @@ Now that you are familiar with some of the different views and dashboards, we wi
 15. From the menu that appears, select **Phone Call**.
 
 16. On the **Quick Create: Phone Call** form complete the activity as follows:
+`
+	- **Subject:** `Return Call to Piper`
 
-	- **Subject:** Return Call to Piper
+	- **Direction:** `Outgoing`
 
-	- **Direction:** Outgoing
+	- **Phone number:**  `888 555-1762`
 
-	- **Phone number:**  888 555-1762
-
-	- **Duration:** 15 minutes.
+	- **Duration:** `15 minutes`.
 
 17. Click the **Save and Close** button. 
 
@@ -270,11 +266,11 @@ Now that you are familiar with some of the different views and dashboards, we wi
 
 23. On the **Quick Create: Phone Call** form complete the activity as follows:
 
-	- **Subject:** Research Pipers issue
+	- **Subject:** `Research Pipers issue`
 
-	- **Description:** Leveraging the knowledge base to research Pipers Issue. 
+	- **Description:** `Leveraging the knowledge base to research Pipers Issue`. 
 
-	- **Duration:** 30 minutes.
+	- **Duration:** `30 minutes`.
 
 24. Click the **Save and Close** button. 
 
@@ -286,17 +282,16 @@ Now that you are familiar with some of the different views and dashboards, we wi
 
 28. Select the **Link this article to the current record** icon. Verify that the text **Linked to Case** appears. 
 
- 
 
-### Task 2: Close the case
+## Task 2: Close the case
 
 Now that we have identified a resolution to the customers problem, we will get ready to resolve the case. The first step in closing a case is to close any open activities that were associated with it. 
 
-1. On the cases record **Timeline**, hover over the **Research Pipers Issue task** that you created earlier**.** Select the mark complete **Check Mark Icon** to complete the activity. 
+1. On the cases record **Timeline**, hover over the **Research Pipers Issue task** that you created earlier. Select the mark complete **Check Mark Icon** to complete the activity. 
 
 2. On the **Close Task** screen, verify the stat is Completed and select the **Close** button. The status of the task should say **Closed**. 
 
-3. Hover over the **Return call to piper Phone Call** you created earlier**.** Select the mark complete **Check Mark Icon** to complete the activity. 
+3. Hover over the **Return call to piper Phone Call** you created earlier. Select the mark complete **Check Mark Icon** to complete the activity. 
 
 4. On the **Close Phone Call** screen, verify the **State** is **Completed** and the **Status** is **Made**. Select the **Close** button. Verify the activity appears as closed on the Timeline. 
 
@@ -306,9 +301,8 @@ Now that we have identified a resolution to the customers problem, we will get r
 
 7. On the **Command Bar** for the case record, select the **Resolve Case** button.
 
-8. On the **Resolve Case** window, set the **Resolution** field to **Knowledge Article**. 
+8. On the **Resolve Case** window, set the **Resolution** field to `Knowledge Article`. 
 
 9. Verify that the **Total Time** and **Billable Time** fields are set to **45 minutes** (This represents the total time spent on both the Phone Call and Task activities added to the record.) 
 
 10. Select the **Resolve** button to complete the process. 
-
