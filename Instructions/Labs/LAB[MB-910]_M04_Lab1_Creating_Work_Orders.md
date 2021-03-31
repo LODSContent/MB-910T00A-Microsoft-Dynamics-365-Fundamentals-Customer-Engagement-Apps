@@ -4,16 +4,15 @@ lab:
     module: 'Module 4: Learn the Fundamentals of Dynamics 365 Field Service'
 ---
 
-Module 4: Learn the Fundamentals of Dynamics 365 Field Service
-========================
+# Module 4: Learn the Fundamentals of Dynamics 365 Field Service
 
 ## Practice Lab 4.1 - Creating Work Orders in Dynamics 365 Field Service
 
-## Lab Setup
+### Lab Setup
 
   - **Estimated Time**: 10 minutes
 
-## Instructions
+### Instructions
 
 1. Using the navigation on the left, select **Work Orders**.
 
@@ -21,13 +20,13 @@ Module 4: Learn the Fundamentals of Dynamics 365 Field Service
 
 3. Complete the Work Order details as follows:
 
-	- **Service Account:** Adventure Works
+	- **Service Account:** `Adventure Works`
 
-	- **Work Order Type**: Service
+	- **Work Order Type**: `Service`
 
-	- **Price List:** Default Price List
+	- **Price List:** `Default Price List`
 
-	- **Taxable:** No
+	- **Taxable:** `No`
 
 4. Select the **Settings** tab.
 
@@ -35,9 +34,9 @@ Module 4: Learn the Fundamentals of Dynamics 365 Field Service
 
 6. Under **Preferences**, configure the time preferences as follows:
 
-	- **Time from Promised:** Today @ 9:00 AM
+	- **Time from Promised:** `Today @ 9:00 AM`
 
-	- **Time to Promised:** Today @ 11:00 AM
+	- **Time to Promised:** `Today @ 11:00 AM`
 
 7. Select **Save**.
 
