@@ -4,21 +4,20 @@ lab:
     module: 'Module 2: Learn the Fundamentals of Dynamics 365 Sales'
 ---
 
-Module 2: Learn the Fundamentals of Dynamics 365 Sales
-========================
+# Module 2: Learn the Fundamentals of Dynamics 365 Sales
 
 ## Practice Lab 2.1 - Create and manage a Lead in Dynamics 365 Sales
 
-## Objectives
+### Objectives
 
 During this exercise, you will be capturing a sales lead for Suzanne Burke. She recently reached out to you and is interested in some of your organization’s products and services. Not only will you be capturing the lead in the system, but you will be using the tools available in Dynamics 365 Sales to work the lead through the qualification process.
 
 
-## Lab Setup
+### Lab Setup
 
   - **Estimated Time**: 15 minutes
 
-## Instructions
+### Instructions
 
 1. If is not open already, open the **Dynamics 365 Sales Hub** application. 
 
@@ -28,45 +27,45 @@ During this exercise, you will be capturing a sales lead for Suzanne Burke. She 
 
 4. Complete your new lead record as follows:
 
-	- **Topic:** Looking for New Equipment – Your Initials
+	- **Topic:** `Looking for New Equipment – Your Initials`
 
-	- **First Name:** Suzanne
+	- **First Name:** `Suzanne`
 
-	- **Last Name:** Burke
+	- **Last Name:** `Burke`
 
-	- **Job Title:** CFO
+	- **Job Title:** `CFO`
 
-	- **Business Phone:** 888 555-8715
+	- **Business Phone:** `888 555-8715`
 
-	- **Email:** Suzanne@contososample.com
+	- **Email:** `Suzanne@contososample.com`
 
-	- **Company:** Contoso - Washington
+	- **Company:** `Contoso - Washington`
 
-	- **Street 1:** 1989 Smith Ave
+	- **Street 1:** `1989 Smith Ave`
 
-	- **City:** Seattle
+	- **City:** `Seattle`
 
-	- **State/Province:** WA
+	- **State/Province:** `WA`
 
-	- **ZIP/Postal Code:** 98001 
+	- **ZIP/Postal Code:** `98001` 
 
 5. Select the **Save** button on the Command Bar to save the new the Lead and leave it open.
 
 6. Notice the **Lead to Opportunity** Business Process Flow at the top of the record. Click the **Qualify Stage** to select it. Complete the stage as follows:
 
-	- **Purchase Timeframe:** This Quarter
+	- **Purchase Timeframe:** `This Quarter`
 
-	- **Estimated Budget:** 25000 
+	- **Estimated Budget:** `25000` 
 
-	- **Purchase Process:** Individual
+	- **Purchase Process:** `Individual`
 
-	- **Identify Decision Maker:** Completed
+	- **Identify Decision Maker:** `Completed`
 
 7. Go to the **Record Timeline** in the middle of the screen and click the **Plus Sign Icon** to add a new activity. 
 
 8. From the menu that appears, select **Phone Call**.
 
-9. On the **Quick Create Phone Call** screen, set the **Subject** field to **Initial Phone Call** and leave the rest of the information as is. 
+9. On the **Quick Create Phone Call** screen, set the **Subject** field to `Initial Phone Call` and leave the rest of the information as is. 
 
 10. Click the **Save and Close** button.
 
