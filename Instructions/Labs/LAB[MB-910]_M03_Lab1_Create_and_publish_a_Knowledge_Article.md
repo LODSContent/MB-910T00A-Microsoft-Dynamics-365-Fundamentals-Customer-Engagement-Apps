@@ -1,19 +1,19 @@
+
 ---
 lab:
     title: 'Lab 3.1: Create and publish a Knowlege Article in Dynamics 365 Customer Service'
     module: 'Module 3: Learn the Fundamentals of Dynamics 365 Customer Service'
 ---
 
-Module 3: Learn the Fundamentals of Dynamics 365 Customer Service
-========================
+# Module 3: Learn the Fundamentals of Dynamics 365 Customer Service
 
 ## Practice Lab 3.1 - Create and publish a Knowlege Article in Dynamics 365 Customer Service
 
-## Lab Setup
+### Lab Setup
 
   - **Estimated Time**: 15 minutes
 
-## Instructions
+### Instructions
 
 1. If is not open already, open the **Dynamics 365 Customer Service Hub** application. 
 
@@ -31,11 +31,11 @@ Module 3: Learn the Fundamentals of Dynamics 365 Customer Service
 
 8. Complete the article as follows:
 
-	- **Title:** Item Broken on Arrival – your initials
+	- **Title:** `Item Broken on Arrival – your initials`
 
-	- **Keywords:** Broken Item, Damaged, Return
+	- **Keywords:** `Broken Item, Damaged, Return`
 
-	- **Description:** Helps resolve issues when an Item arrives damaged. 
+	- **Description:** `Helps resolve issues when an Item arrives damaged.` 
 
 9. Enter the following text into the Content Designer text.   
 ‎  
@@ -53,9 +53,9 @@ Module 3: Learn the Fundamentals of Dynamics 365 Customer Service
 
 	5. Click Print
 
-Once we have received the returned / damaged item, your account will be credited back the amount.
+  Once we have received the returned / damaged item, your account will be credited back the amount.
 
-**NOTE:** You can add formatting to the text if desired. 
+  **NOTE:** You can add formatting to the text if desired. 
 
 10. On the **Command Bar**, select the **Save** button to save the Knowledge Article and leave it open. 
 
@@ -97,16 +97,14 @@ After the author initially creates the record, it will generally go through an a
 
 28. Confirm that the following is selected:
 
-	- **Publish:** Now
+	- **Publish:** `Now`
 
-	- **Published Status:** Published
+	- **Published Status:** `Published`
 
-	- **Expiration Date:** One year from today at 12:00 AM
+	- **Expiration Date:** `One year from today at 12:00 AM`
 
-	- **Expiration State:** Expired
+	- **Expiration State:** `Expired`
 
-	- **Expiration Status:** Expired
+	- **Expiration Status:** `Expired`
 
-	- **Publish Approved translations:** No
-
-
+	- **Publish Approved translations:** `No`
