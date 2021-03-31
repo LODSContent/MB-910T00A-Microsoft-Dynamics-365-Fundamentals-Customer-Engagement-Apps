@@ -4,24 +4,23 @@ lab:
     module: 'Module 1: Learn the Fundamentals of Dynamics 365 Marketing'
 ---
 
-Module 1: Learn the Fundamentals of Dynamics 365 Marketing
-========================
+# Module 1: Learn the Fundamentals of Dynamics 365 Marketing
 
 ## Practice Lab 1.6 - Create a simple Customer Journey
 
-## Objectives
+### Objectives
 
 During this exercise you will see that Customer Journeys are a key component in Dynamics 365 Marketing. You will create customer journeys as a basis for any marketing effort to guide the path a customer takes while interacting with your organization's marketing process. The goal of the journey, when it is complete, is to turn them into revenue.
 
-## Lab Setup
+### Lab Setup
 
   - **Estimated Time**: 10 minutes
 
-## Instructions
+### Instructions
 
 **Note:** Before we create a customer journey, we need to make sure that we have an active email that can be added to the customer journey. 
 
-1. If necessary open the Dynamics 365 Marketing Application. 
+1. If necessary open the **Dynamics 365 Marketing** Application. 
 
 2. Using the navigation on the left, select **Marketing emails** under the Marketing Execution group
 
@@ -29,7 +28,7 @@ During this exercise you will see that Customer Journeys are a key component in 
 
 4. On the **Command Bar** at the top, select the **Go Live** button. 
 
-5. Now that the email is live, use the navigation on the left to select **Customer Journeys** under the Marketing Execution group
+5. Now that the email is live, use the navigation on the left to select **Customer Journeys** under the **Marketing Execution** group
 
 6. Using the command bar, select **New** 
 
@@ -43,13 +42,13 @@ During this exercise you will see that Customer Journeys are a key component in 
 
 11. Select the General tab located towards the top of the Customer Journey Record. Enter the following information into the **General** tab:
 
-	- **Name**: Fargo Customer Journey
+	- **Name**: `Fargo Customer Journey`
 
-	- **Start date and time**: Enter Todays Date
+	- **Start date and time**: `Enter Todays Date`
 
-	- **End date and time**: One Month from Today
+	- **End date and time**: `One Month from Today`
 
-	- **Time zone**: Select your local time zone 
+	- **Time zone**: `Select your local time zone` 
 
 12. On the command bar, select **Save** to save the work you've done so far.
 
