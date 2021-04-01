@@ -4,12 +4,11 @@ lab:
     module: 'Module 4: Learn the Fundamentals of Dynamics 365 Field Service'
 ---
 
-Module 4: Learn the Fundamentals of Dynamics 365 Field Service
-========================
+# Module 4: Learn the Fundamentals of Dynamics 365 Field Service
 
 ## Practice Lab 4.3 - Dynamics 365 Field Service capstone lab
 
-## Lab Scenario
+### Lab Scenario
 
 ABC company specializes in the manufacturing, selling, installation and servicing of security equipment. Their products include both indoor and outdoor security cameras, moisture and fire sensors, monitoring services, and more. 
 
@@ -41,7 +40,7 @@ The installation process for purchased security equipment varies based on the ty
 
 Once the systems are installed, ABC Company provides support after the sale. If a customer has an issue, they can contact customer support. An agent will attempt to work with the customer remotely to resolve their issue. If their issue cannot be resolved remotely, the support agent can escalate the issue to a work order that will be scheduled and worked on by a qualified field technician. 
 
-## Objectives
+### Objectives
 
 Typically, ABC Company will dispatch field technicians onsite to work on customer items one of three scenarios. 
 
@@ -59,15 +58,15 @@ Recently a corporate customer Active Transport, Inc. contacted support about an 
 
 - Resolving a work order using the mobile app. 
 
-## Lab Setup
+### Lab Setup
 
   - **Estimated Time**: 45 minutes
 
-## Instructions
+### Instructions
 
-## Exercise 1: Create a Case and Escalate to a Work Order 
+# Exercise 1: Create a Case and Escalate to a Work Order 
 
-### Task 1: Create a Case record
+## Task 1: Create a Case record
 
 1. If is not open already, open the **Dynamics 365 Field Service** application. 
 
@@ -77,24 +76,22 @@ Recently a corporate customer Active Transport, Inc. contacted support about an 
 
 4. Complete the new case record as follows:
 
-	- **Case Title:** Camera Down
+	- **Case Title:** `Camera Down`
 
-	- **Customer:** Active Transport Inc.
+	- **Customer:** `Active Transport Inc`.
 
-	- **Origin:** Phone
+	- **Origin:** `Phone`
 
 5. Select the **Field Service** tab
 
-6. Set the **Incident Type** field to **Camera Down**.
+6. Set the **Incident Type** field to `Camera Down`.
 
 7. On the **Command bar**, select the **Save and Close** button to save and close the case record. 
-
  
 
-### Task 2: Manually create a Word Order
+## Task 2: Manually create a Word Order
 
 We will come back to your created case record later. Next, let’s examine how to manually create a work order record. 
-
  
 
 1. Using the navigation on the left, select **Work Orders**.
@@ -103,34 +100,32 @@ We will come back to your created case record later. Next, let’s examine how t
 
 3. Complete the Work Order details as follows:
 
-	- **Service Account:** Brakes & Gears 
+	- **Service Account:** `Brakes & Gears` 
 
-	- **Price List:** Default Price List
+	- **Price List:** `Default Price List`
 
-	- **Primary Incident Type:** Fan Out
+	- **Primary Incident Type:** `Fan Out`
 
-	- **Taxable:** No
+	- **Taxable:** `No`
 
 4. Note the Work Order Number to ensure that you are working with the correct work order later. 
 
 5. Select the **Settings** tab.
 
-6. Set the **Service Territory** field to **WA**.
+6. Set the **Service Territory** field to `WA`.
 
 7. Under **Preferences**, configure the time preferences as follows:
 
-	- **Time from Promised:** Today @ 9:00 AM
+	- **Time from Promised:** `Today @ 9:00 AM`
 
-	- **Tom to Promised:** Today @ 11:00 AM
+	- **Tom to Promised:** `Today @ 11:00 AM`
 
 8. Select **Save and Close** to save you changes and exit the new work order.
-
  
 
-### Task 3: Generate a Work Order from a Case
+## Task 3: Generate a Work Order from a Case
 
 Another way to generate work orders is by escalating case records. In this example, we will escalate the Camera Down case record we created earlier. 
-
  
 
 1. Using the left navigation, select **Cases**. 
@@ -141,17 +136,18 @@ Another way to generate work orders is by escalating case records. In this examp
 
 4. After the work order creation has completed, click the **OK** button on the pop-up screen to view the Work Order details. 
 
-5. Select the **Services** Tab and verify that the **Inspect System Health** and **Inspect Range of Motion** services were added to the work order. **NOTE:** If you do not see them initially, press F5 to refresh your screen. 
+5. Select the **Services** Tab and verify that the **Inspect System Health** and **Inspect Range of Motion** services were added to the work order. 
+
+    **NOTE:** If you do not see them initially, press F5 to refresh your screen. 
 
 6. Select the **Service Task** Tab and verify that 4 tasks were added.
-
  
 
 Both of your newly created work orders are ready to be scheduled. 
 
-## Exercise 2: Schedule Items with Dynamics 365 Field Service  
+# Exercise 2: Schedule Items with Dynamics 365 Field Service  
 
-### Task 1: Schedule Directly from a Work Order
+## Task 1: Schedule Directly from a Work Order
 
 1. Using the left navigation, select **Schedule Board**.
 
@@ -167,15 +163,12 @@ Both of your newly created work orders are ready to be scheduled.
 
 7. At times, you may need to reschedule a work order based on technician conflicts or other items. This can be easily done by dispatchers leveraging the schedule board. 
 
-8. Click in search resources box on the schedule board (Located right above the resource name column), enter **Brady** and locate the work order that is scheduled for **Brady Hannon** later today. 
+8. Click in search resources box on the schedule board (Located right above the resource name column), enter `Brady` and locate the work order that is scheduled for **Brady Hannon** later today. 
 
 9. **Right-click** on the scheduled item. From the menu that appears, select **Re-assign**. Click in the using the search box, select your resource record.
 
- 
 
- 
-
-### Task 2: Schedule with the Schedule Board
+## Task 2: Schedule with the Schedule Board
 
 1. Using the left navigation, select **Schedule Board**.
 
@@ -189,6 +182,6 @@ Both of your newly created work orders are ready to be scheduled.
 
 6. At times, you may need to reschedule a work order based on technician conflicts or other items. This can be easily done by dispatchers leveraging the schedule board. 
 
-7. Click in search resources box on the schedule board (Located right above the resource name column), enter **Brady** and locate the work order that is scheduled for **Brady Hannon** later today. 
+7. Click in search resources box on the schedule board (Located right above the resource name column), enter `Brady` and locate the work order that is scheduled for **Brady Hannon** later today. 
 
 8. **Right-click** on the scheduled item. From the menu that appears, select **Substitute Resource**. Click in the Select/Search box, select your resource record, and select **Re-assign**
