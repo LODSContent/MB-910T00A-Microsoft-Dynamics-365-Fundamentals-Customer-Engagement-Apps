@@ -4,12 +4,11 @@ lab:
     module: 'Module 2: Learn the Fundamentals of Dynamics 365 Sales'
 ---
 
-Module 2: Learn the Fundamentals of Dynamics 365 Sales
-========================
+# Module 2: Learn the Fundamentals of Dynamics 365 Sales
 
 ## Practice Lab 2.3 - Dynamics 365 Sales capstone lab
 
-## Lab Scenario
+### Lab Scenario
 
 ABC company specializes in the manufacturing, selling, installation and servicing of security equipment. Their products include both indoor and outdoor security cameras, moisture and fire sensors, monitoring services, and more. 
 
@@ -41,7 +40,7 @@ The installation process for purchased security equipment varies based on the ty
 
 Once the systems are installed, ABC Company provides support after the sale. If a customer has an issue, they can contact customer support. An agent will attempt to work with the customer remotely to resolve their issue. If their issue cannot be resolved remotely, the support agent can escalate the issue to a work order that will be scheduled and worked on by a qualified field technician.  
 
-## Objectives
+### Objectives
 
 You are working as a sales representative on ABC company’s residential sales side. While many of your leads come from company sponsored events, marketing campaigns, and purchased lists you still often receive inquiries from customers directly. When you receive those inquiries, you need to manually enter and work those the lead through the sales lifecycle. 
 
@@ -61,18 +60,17 @@ Upon completion of the lab, you will have completed the following:
 
 - Generate an invoice. 
 
-## Lab Setup
+### Lab Setup
 
   - **Estimated Time**: 30 minutes
 
-## Instructions
+### Instructions
   
-## Exercise 1: Create and Qualify a Lead in Dynamics 365 Sales
+# Exercise 1: Create and Qualify a Lead in Dynamics 365 Sales
 
+## Task 1: Create a new Lead
 
-### Task 1: Create a new Lead
-
-1. If necessary, open an InPrivate browser and navigate to [Https://home.Dynamics.com](https://home.dynamics.com/) 
+1. If necessary, open an InPrivate browser and navigate to `https://home.dynamics.com/` 
 
 2. When prompted, log in with the user credentials provided to you by the instructor. 
 
@@ -88,35 +86,35 @@ Upon completion of the lab, you will have completed the following:
 
 8. Complete your new lead record as follows:
 
-	- **Topic:** Looking for Security Equipment – “Your Name”
+	- **Topic:** `Looking for Security Equipment – “Your Name”`
 
-	- **First Name:** Piper
+	- **First Name:** `Piper`
 
-	- **Last Name:** Smith - Your Initials
+	- **Last Name:** `Smith - Your Initials`
 
-	- **Mobile Phone:** 888 555-1762
+	- **Mobile Phone:** `888 555-1762`
 
-	- **Email:** piper@sample.com
+	- **Email:** `piper@sample.com`
 
-	- **Street 1:** 1989 191<sup data-htmlnode="">st</sup> Ave N
+	- **Street 1:** `1989 191 Ave N`
 
-	- **City:** Seattle
+	- **City:** `Seattle`
 
-	- **State/Province:** WA
+	- **State/Province:** `WA`
 
-	- **ZIP/Postal Code:** 98001 
+	- **ZIP/Postal Code:** `98001` 
 
 9. Select the **Save** button on the Command Bar to save the new the Lead and leave it open.
 
 10. Notice the **Lead to Opportunity** Business Process Flow at the top of the record. Click the **Qualify Stage** to select it. Complete the stage as follows:
 
-	- **Purchase Timeframe:** This Quarter
+	- **Purchase Timeframe:** `This Quarter`
 
-	- **Estimated Budget:** 10000 
+	- **Estimated Budget:** `10000` 
 
-	- **Purchase Process:** Individual
+	- **Purchase Process:** `Individual`
 
-	- **Identify Decision Maker:** Completed
+	- **Identify Decision Maker:** `Completed`
 
 11. Click the **X** on the stage window to close the window. 
 
@@ -126,13 +124,13 @@ Upon completion of the lab, you will have completed the following:
 
 14. On Quick Create Phone Call Screen, complete the phone call as follows:
 
-	- **Subject:** Looking for home security equipment
+	- **Subject:** `Looking for home security equipment`
 
-	- **Phone Number:** 888 555-1762
+	- **Phone Number:** `888 555-1762`
 
-	- **Direction:** Incoming
+	- **Direction:** `Incoming`
 
-	- **Description:** After some instances in her neighborhood, she is looking to purchase a security system. 
+	- **Description:** `After some instances in her neighborhood, she is looking to purchase a security system.` 
 
 15. Click the **Save and Close** button.
 
@@ -140,13 +138,9 @@ Upon completion of the lab, you will have completed the following:
 
 17. On the **Close Phone Call** window, verify the state is set to **Completed**, and select the **Close** button.
 
- 
-
 **IMPORTANT:** Do not close the lead record. Leave it open as we will use it in the next task. 
 
- 
-
-### Task 2: Qualify the Lead as an Opportunity
+## Task 2: Qualify the Lead as an Opportunity
 
 After visiting with Piper, you identify that there is enough interest on her end to justify moving forward, and that we have products and services that would benefit her. Next you will qualify the lead record. This will create a related Opportunity record and move to the next stage of the Lead to Opportunity sales process. 
 
@@ -156,17 +150,13 @@ After visiting with Piper, you identify that there is enough interest on her end
 
 3. Select the **Develop** stage to return to the opportunity.
 
-4. Click the **Save &amp; Close** button to close the Opportunity record that was created. 
+4. Click the **Save & Close** button to close the Opportunity record that was created. 
 
- 
-
- 
-
-## Exercise 2: Manage a sales opportunity in Dynamics 365 Sales
+# Exercise 2: Manage a sales opportunity in Dynamics 365 Sales
 
 Now that we have successfully qualified the lead as an opportunity, it is time to work the opportunity through its lifecycle.
 
-### Task 1: Manage a Sales Opportunity & Create a Quote 
+## Task 1: Manage a Sales Opportunity & Create a Quote 
 
 1. Using the navigation on the left side of the screen, select **Opportunities**. 
 
@@ -190,9 +180,9 @@ Now that we have successfully qualified the lead as an opportunity, it is time t
 
 11. Complete as follows:
 
-	- **Est. Close Date:** Tomorrow
+	- **Est. Close Date:** `Tomorrow`
 
-	- **Est Revenue:** 12,500.00
+	- **Est Revenue:** `12,500.00`
 
 12. Go to the **Record Timeline** in the middle of the screen and click the **Plus Sign Icon** to add a new activity. 
 
@@ -200,15 +190,15 @@ Now that we have successfully qualified the lead as an opportunity, it is time t
 
 14. On the **Quick Create: Appointment** screen, complete as follows:
 
-	- **Subject:** Quick Meeting – “Your Initials”
+	- **Subject:** `Quick Meeting – “Your Initials”`
 
-	- **Location:** Online
+	- **Location:** `Online`
 
-	- **Start Time**: Tomorrow @ 10:00 AM
+	- **Start Time**: `Tomorrow @ 10:00 AM`
 
-	- **End Time:** Tomorrow @ 10:30 AM
+	- **End Time:** `Tomorrow @ 10:30 AM`
 
-15. On the Command bar, select **Save &amp; Close**
+15. On the Command bar, select **Save & Close**
 
 16. On the Lead to Opportunity business process flow, select the **Develop** Stage. Notice that you need to Identify Stakeholders and Competitors.
 
@@ -224,7 +214,7 @@ Now that we have successfully qualified the lead as an opportunity, it is time t
 
 22. On the **Lookup Record** screen, select **New Record**, and then select **Competitors**.
 
-23. In the Quick Create: **Competitor** screen, set the **Name** field to **Coho Security – “Your Initials”**.
+23. In the Quick Create: **Competitor** screen, set the **Name** field to `Coho Security – “Your Initials”`.
 
 24. Select the **Save and Close** button.
 
