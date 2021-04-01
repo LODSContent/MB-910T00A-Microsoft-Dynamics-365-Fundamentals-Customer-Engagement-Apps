@@ -4,21 +4,20 @@ lab:
     module: 'Module 2: Learn the Fundamentals of Dynamics 365 Sales'
 ---
 
-Module 2: Learn the Fundamentals of Dynamics 365 Sales
-========================
+# Module 2: Learn the Fundamentals of Dynamics 365 Sales
 
 ## Practice Lab 2.2 - Create and manage an Opportunity in Dynamics 365 Sales 
 
-## Objectives
+### Objectives
 
 During this exercise, you will be manually capturing a sales opportunity for an existing customer named Jim Glynn. He works for a company called Adventure Work. Not only will you be capturing the opportunity in the system, but you will be using the tools available in Dynamics 365 Sales to work through and close the opportunity.
 
 
-## Lab Setup
+### Lab Setup
 
   - **Estimated Time**: 25 minutes
 
-## Instructions
+### Instructions
 
 In this exercise, you will become familiar with how to access the different Dynamics 365 Customer engagement applications by using the Dynamics 365 Home screen. 
 
@@ -30,25 +29,25 @@ In this exercise, you will become familiar with how to access the different Dyna
 
 4. Complete the opportunity information as follows:
 
-	- **Topic:** Wants to upgrade their existing equipment – Your Initials
+	- **Topic:** `Wants to upgrade their existing equipment – Your Initials`
 
-	- **Account:** Adventure Works
+	- **Account:** `Adventure Works`
 
-	- **Contact:** Jim Glynn
+	- **Contact:** `Jim Glynn`
 
-	- **Purchase Timeframe:** This Quarter
+	- **Purchase Timeframe:** `This Quarter`
 
-	- **Budget Amount:** 50,000
+	- **Budget Amount:** `50,000`
 
-	- **Purchase Process:** Individual
+	- **Purchase Process:** `Individual`
 
 5. On the **New Opportunity Header** at the top of the record, select the down arrow next to the owner field. 
 
 6. Complete as follows:
 
-	- **Est. Close Date:** Two days from today
+	- **Est. Close Date:** `Two days from today`
 
-	- **Est Revenue:** 50,000
+	- **Est Revenue:** `50,000`
 
 7. On the **Command Bar** at the top, select the **Save and Close** button. 
 
@@ -60,9 +59,9 @@ In this exercise, you will become familiar with how to access the different Dyna
 
 11. Complete as follows:
 
-	- **Est. Close Date:** Tomorrow
+	- **Est. Close Date:** `Tomorrow`
 
-	- **Est Revenue:** 70,000
+	- **Est Revenue:** `70,000`
 
 12. In the Stakeholders sub-grid, notice the Suzanne Burke is already defined as a stakeholder. 
 
@@ -74,7 +73,7 @@ In this exercise, you will become familiar with how to access the different Dyna
 
 16. On the **Lookup Record** screen, select **New Record**, and then select **Competitors**.
 
-17. In the **Quick Create Competitor** screen, set the **Name** field to **Coho Technologies**.
+17. In the **Quick Create Competitor** screen, set the **Name** field to `Coho Technologies`.
 
 18. Select the **Save and Close** button.
 
@@ -88,7 +87,7 @@ In this exercise, you will become familiar with how to access the different Dyna
 
 23. On the **Close** stage, mark the **Complete Final Proposal**, **Present Final Proposal**, **Send Thank You**, and **File De-brief** steps as **Completed**. 
 
-24. Set **Confirm Decision Date** to **Todays date**. 
+24. Set **Confirm Decision Date** to `Todays date`. 
 
 25. Click the **Finish** button. 
 
