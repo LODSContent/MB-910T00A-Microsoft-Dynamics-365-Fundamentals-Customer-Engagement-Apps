@@ -4,12 +4,11 @@ lab:
     module: 'Module 5: Learn the Fundamentals of Dynamics 365 Project Operations'
 ---
 
-Module 5: Learn the Fundamentals of Dynamics 365 Project Operations
-========================
+# Module 5: Learn the Fundamentals of Dynamics 365 Project Operations
 
 ## Practice Lab 5.3 - Dynamics 365 Project Operations capstone lab
 
-## Lab Scenario
+### Lab Scenario
 
 ABC company specializes in the manufacturing, selling, installation and servicing of security equipment. Their products include both indoor and outdoor security cameras, moisture and fire sensors, monitoring services, and more. 
 
@@ -58,25 +57,25 @@ Upon completion of the lab, you will have completed the following:
 
 - Create a Project and define a Project Team. 
 
-## Lab Setup
+### Lab Setup
 
   - **Estimated Time**: 45 minutes
 
-## Instructions
+### Instructions
 
-## Exercise 1: Create a Project Quote & Project Estimate
+# Exercise 1: Create a Project Quote & Project Estimate
 
 The Project Opportunity is used to capture high level details about a potential project. As more and more details about the project emerge, you can create a Project Quote. The project quote often includes details related to different roles, timelines, and pricing. The project quote is what is presented to the customer. The project quote is also where you can begin to create a project plan that is associated with the project you are selling. This save time after the project is sold, because much of the details related to the project are already captured.
 
 In this exercise you will be creating a project and defining detailed related to the project quote. 
 
-### Task 1: Create a Project Quote.  
+## Task 1: Create a Project Quote.  
 
 1. With the Project Opportunity open, select the **Quotes** tab. 
 
 2. On the Quotes sub-grid, click the **New Quote** button.
 
-3. After the new quote record open, set the **Product Price List** field on the quote to **Products and packaged Services**. 
+3. After the new quote record open, set the **Product Price List** field on the quote to `Products and packaged Services`. 
 
 4. Select the **Quote Lines** Tab.
 
@@ -86,21 +85,21 @@ In this exercise you will be creating a project and defining detailed related to
 
 7. On the **Quick Create Project** screen, complete the project as follows:
 
-	- **Name:** Complete Global Implementation – Your Initials
+	- **Name:** Complete `Global Implementation – Your Initials`
 
-	- **Project Manager:** Select you user record
+	- **Project Manager:** `Select you user record`
 
-	- **Calendar template:** Default Work Template
+	- **Calendar template:** `Default Work Template`
 
-	- **Contracting Unit:** Fabrikam US
+	- **Contracting Unit:** `Fabrikam US`
 
-	- **Estimated Start Date:** One week from today
+	- **Estimated Start Date:** `One week from today`
 
-	- **Estimated Labor Cost:** $ 175,000
+	- **Estimated Labor Cost:** `$ 175,000`
 
-	- **Estimated Expense Cost:** $ 50,000
+	- **Estimated Expense Cost:** `$ 50,000`
 
-	- **Estimated Total Cost:** $ 225,000
+	- **Estimated Total Cost:** `$ 225,000`
 
 8. Select **Save and Close** button.
 
@@ -116,33 +115,31 @@ In this exercise you will be creating a project and defining detailed related to
 
 14. Complete the **Quote line detail** item as follows:
 
-	- **Description:** Communication Line Run – Your Initials
+	- **Description:** `Communication Line Run – Your Initials`
 
-	- **Transaction Class:** Time
+	- **Transaction Class:** `Time`
 
-	- **Role:** Network Technician
+	- **Role:** `Network Technician`
 
-	- **Category:** Time
+	- **Category:** `Time`
 
-	- **Start Date:** One Month form today
+	- **Start Date:** `One Month form today`
 
-	- **End Date:** Two months from today
+	- **End Date:** `Two months from today`
 
-	- **Resourcing Unit:** Fabrikam US
+	- **Resourcing Unit:** `Fabrikam US`
 
-	- **Unit:** Hour
+	- **Unit:** `Hour`
 
-	- **Sales Amount:** 50,000
+	- **Sales Amount:** `50,000`
 
 15. Select the **Save and Close** button to close the line detail item. 
 
 16. On the **Command Bar**, select the **Save and Close** button. 
 
+    **Note:** Leave the Project Quote open so it can be used in the next task. 
 
-**Note:** Leave the Project Quote open so it can be used in the next task. 
-
-
-### Task 2: Close the Project Quote and create a Project Contract.
+## Task 2: Close the Project Quote and create a Project Contract.
 
 In this task you will be closing the project quote that you created and converting it into a project contract. The Project Contract can be used and leveraged while the project is being executed. 
 
@@ -153,18 +150,16 @@ In this task you will be closing the project quote that you created and converti
 
 3. Once the quote is closed, the newly created **Complete Global Security Implementation – Your Initials** Project Contact will be displayed. 
 
- 
 
-**Note:** Leave the Project Contact open so it can be used in the next task. 
+    **Note:** Leave the Project Contact open so it can be used in the next task. 
 
-## Exercise 2: Manage a Project
+# Exercise 2: Manage a Project
 
 One of the advantages of leveraging the project selling capabilities of Project Operations, is the ability to create a project during the sales process. The created project will be accessible from different sales related records such as Project Quotes and Project Contracts. 
 
 In this exercise, you will be managing some of the initial tasks related to a project such as defining project details, defining a project team, and outlining project tasks. 
 
-
-### Task 1: Manage basic project data. 
+## Task 1: Manage basic project data. 
 
 1. With the **Complete Global Security Implementation- Your Initials** Project Contract open, select the **Related** tab. 
 
@@ -179,7 +174,7 @@ In this exercise, you will be managing some of the initial tasks related to a pr
 6. Select the **Next Stage** button to advance to the **Plan** stage. 
 
  
-### Task 2: Create a Project Team.
+## Task 2: Create a Project Team.
 
 Each project will have a team of members that will assist in the execution of the project. In this task we will be defining the resources that will make up the project team members. 
 
@@ -190,79 +185,76 @@ Each project will have a team of members that will assist in the execution of th
 
 3. Configure the team member record as follows:
 
-	- **Position Name:** Robotics Engineer – Your Initials
+	- **Position Name:** `Robotics Engineer – Your Initials`
 
-	- **Bookable Resource:** Allison Dickson
+	- **Bookable Resource:** `Allison Dickson`
 
-	- **Role:** Robotics Engineer
+	- **Role:** Robotics `Engineer`
 
 4. Select the arrow next to the Save and Close button. From the menu that appears, select **Save and Create New.**
 
 5. Configure the next team member record as follows:
 
-	- **Position Name:** Software Engineer – Your Initials
+	- **Position Name:** `Software Engineer – Your Initials`
 
-	- **Bookable Resource:** Bob Kozak
+	- **Bookable Resource:** `Bob Kozak`
 
-	- **Role:** Software Engineer
+	- **Role:** `Software Engineer`
 
 6. Select the arrow next to the Save and Close button. From the menu that appears, select **Save and Create New.**
 
 7. Configure the team member record as follows:
 
-	- **Position Name:** Network Technician – Your Initials
+	- **Position Name:** `Network Technician – Your Initials`
 
-	- **Bookable Resource:** Dianna Woodward
+	- **Bookable Resource:** `Dianna Woodward`
 
-	- **Role:** Network Technician
+	- **Role:** `Network Technician`
 
-8. Select the **Save &amp; Close** button.
+8. Select the **Save & Close** button.
 
 
-### Task 3: Define a Project Schedule.
+## Task 3: Define a Project Schedule.
 
 Another important part of defining a project is to define the project tasks and schedule for the project. In this task we are adding some project tasks and associating them will different roles. 
-
 
 1. With the **Complete Global Security Implementation – Your Initials** project open, select the **Schedule** tab. 
 
 2. On the toolbar in the schedule sub-grid, select the **+ Add** button. 
 
-3. In the row that appears, set the **Name** field to **System Development**.
+3. In the row that appears, set the **Name** field to `System Development`.
 
 4. On the toolbar in the schedule sub-grid, select the **+ Add** button again to add another item. 
 
 5. Configure the Item as follows:
 
-	- **Name:** Create System Layout
+	- **Name:** `Create System Layout`
 
-	- **Effort:** 25
+	- **Effort:** `25`
 
 6. On the toolbar in the schedule sub-grid, select the **+ Add button** again to add another task. 
 
 7. Configure the Item as follows:
 
-	- **Name:** Design Cameras
+	- **Name:** `Design Cameras`
 
-	- **Predecessor:** Create System Layout
+	- **Predecessor:** `Create System Layout`
 
-	- **Effort:** 50
+	- **Effort:** `50`
 
 8. On the toolbar in the schedule sub-grid, select the **+ Add button** again to a finial task. 
 
 9. Configure the Item as follows:
 
-	- **Name:** Verify and Approve design
+	- **Name:** `Verify and Approve design`
 
-	- **Predecessor:** Design Cameras
+	- **Predecessor:** `Design Cameras`
 
-	- Effort: 8 
-
+	- Effort: `8`
  
-**Note:** Stay on the schedule tab as we will be making some additional modifications in the next task. 
+    **Note:** Stay on the schedule tab as we will be making some additional modifications in the next task. 
 
-
-### Task 4: Associate resources with a project.
+## Task 4: Associate resources with a project.
 
 As part of defining a project schedule, you can specify the types of resources that will be used to fill the staffing requirements. These can be actual named resources, or generic resources that will be replaced by named resources in the future. In this task you will be defining both named and generic resources for the project tasks you created. 
 
@@ -274,11 +266,11 @@ As part of defining a project schedule, you can specify the types of resources t
 
 4. Configure the Project Team Member as follows
 
-	- **Position Name:** Generic Robotics Engineer – Your Initials
+	- **Position Name:** `Generic Robotics Engineer – Your Initials`
 
-	- **Bookable Resource:** Generic Resource
+	- **Bookable Resource:** `Generic Resource`
 
-	- **Role:** Robotics Engineer
+	- **Role:** `Robotics Engineer`
 
 5. Select the **Save and Close** button. 
 
@@ -290,11 +282,11 @@ As part of defining a project schedule, you can specify the types of resources t
 
 9. Configure the Project team Member as follows:
 
-	- **Position Name:** Generic Robotics Engineer – Your Initials
+	- **Position Name:** `Generic Robotics Engineer – Your Initials`
 
-	- **Bookable Resource:** Generic Resource
+	- **Bookable Resource:** `Generic Resource`
 
-	- **Role:** Robotics Engineer
+	- **Role:** `Robotics Engineer`
 
 10. Select the **Save and Close** button. 
 
@@ -302,9 +294,4 @@ As part of defining a project schedule, you can specify the types of resources t
 
 12. From the menu that appears, select **Allison Dickson**. 
 
-
 Congratulations, you have successfully sold and created a project in Dynamics 365 Project Operations. For here Project Managers, can manage different aspects of the project such as scheduling resources, monitoring the project schedule, and managing time and expenses. 
-
- 
-
- 
