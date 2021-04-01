@@ -4,16 +4,15 @@ lab:
     module: 'Module 4: Learn the Fundamentals of Dynamics 365 Field Service'
 ---
 
-Module 4: Learn the Fundamentals of Dynamics 365 Field Service
-========================
+# Module 4: Learn the Fundamentals of Dynamics 365 Field Service
 
 ## Practice Lab 4.2 - Schedule Items in Dynamics 365 Field Service
 
-## Lab Setup
+### Lab Setup
 
   - **Estimated Time**: 20 minutes
   
-## Instructions
+### Instructions
 
 1. If is not open already, open the **Dynamics 365 Field Service** application. 
 
@@ -23,15 +22,15 @@ Module 4: Learn the Fundamentals of Dynamics 365 Field Service
 
 4. Complete the Work Order details as follows:
 
-	- **Service Account:** A. Datum Corporation (sample)
+	- **Service Account:** `A. Datum Corporation (sample)`
 
-	- **Work Order Type:** Service
+	- **Work Order Type:** `Service`
 
-	- **Price List:** Default Price List
+	- **Price List:** `Default Price List`
 
-	- **Taxable:** No
+	- **Taxable:** `No`
 
-	- **Primary Incident Type:** Unit Overheating
+	- **Primary Incident Type:** `Unit Overheating`
 
 5. Select **Save** to save you changes.
 
@@ -43,7 +42,7 @@ Module 4: Learn the Fundamentals of Dynamics 365 Field Service
 
 9. Set the **End Time** to the **2.5 hours** after that. 
 
-10. Select the **Book &amp; Exit** button to book the item and leave the scheduling window. 
+10. Select the **Book & Exit** button to book the item and leave the scheduling window. 
 
 11. Once back on the Work Order click the **Save and Close** button from the Command Bar. 
 
@@ -61,11 +60,10 @@ Module 4: Learn the Fundamentals of Dynamics 365 Field Service
 
 18. Set the **End Time** to the **2.5 hours** after that. 
 
-19. Select the **Book &amp; Exit** button to book the item and leave the scheduling window. 
+19. Select the **Book & Exit** button to book the item and leave the scheduling window. 
 
 20. At times, you may need to reschedule a work order based on technician conflicts or other items. This can be easily done by dispatchers leveraging the schedule board. 
 
 21. Click in search resources box on the schedule board (Located right above the resource name column), enter Ryan and locate the work order that is scheduled for Ryan later today. 
 
-22. Right-click on the work order, and from the menu that appears, select **Substitute Resource**, select the **Find Substitution** button**.**
-
+22. Right-click on the work order, and from the menu that appears, select **Substitute Resource**, select the **Find Substitution** button.
